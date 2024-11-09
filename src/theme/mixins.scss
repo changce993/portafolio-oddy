@@ -1,0 +1,13 @@
+@import "./variables.scss";
+
+@mixin content-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@mixin content-visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+}

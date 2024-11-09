@@ -1,0 +1,18 @@
+@import "/src/theme/variables.scss";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: $max-width;
+  padding: 0 $safearea;
+  margin: 0 auto;
+  height: 5rem;
+
+  .group {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+}

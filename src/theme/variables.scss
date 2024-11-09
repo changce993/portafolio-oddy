@@ -1,0 +1,22 @@
+$color-golden-hour: #FAAB55;
+$color-hot-orange: #DB5114;
+$color-deep-sea: #101B25;
+$color-white-haze: #E1E1E1;
+$color-white: #FFFFFF;
+$color-btn-gradient: linear-gradient(225.51deg, rgba($color: $color-hot-orange, $alpha: 0.75) -3.79%, rgba($color: $color-deep-sea, $alpha: 0) 62.61%);
+
+$ff-primary: poppins;
+$ff-secondary: inter;
+
+$fw-thin: 100;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-black: 900;
+
+$cubic-default: cubic-bezier(0.77, 0, 0.175, 1);
+
+$max-width: 1440px;
+$safearea: max(1rem, min(2rem, 2vw));

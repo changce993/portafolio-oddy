@@ -1,0 +1,13 @@
+@import "./variables.scss";
+
+.content-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.content-visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+}

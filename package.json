@@ -1,0 +1,33 @@
+{
+  "name": "starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@studio-freight/react-lenis": "^0.0.47",
+    "@svgr/webpack": "^8.1.0",
+    "clsx": "^2.1.1",
+    "embla-carousel-autoplay": "^8.3.1",
+    "embla-carousel-react": "^8.3.1",
+    "file-loader": "^6.2.0",
+    "gsap": "./src/lib/gsap-bonus.tgz",
+    "next": "15.0.3",
+    "next-intl": "^3.25.0",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-fast-marquee": "^1.6.5",
+    "react-intersection-observer": "^9.13.1",
+    "react-lottie": "^1.2.4",
+    "sass": "^1.80.6",
+    "zustand": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3"
+  }
+}
